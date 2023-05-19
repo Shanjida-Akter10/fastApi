@@ -26,5 +26,5 @@ async def read_items():
     return items     ## returning all the value
 
 # start the app → uvicorn index:app --port 5000 --reload --log-level debug
-
+#task02 done
     
