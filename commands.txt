@@ -1,0 +1,14 @@
+
+git config --global user.name "Mona Lisa"
+git config --global user.email "GFGexample@gmail.orgg"
+
+git config --global user.password "1234321"
+
+1) pip install fastapi
+
+2) pip install "uvicorn[standard]"
+
+3.1) uvicorn main:app --reload
+3.1.1) python -m uvicorn main:app --reload
+
+3.2) uvicorn main:app --port 5000 --reload --log-level debug
